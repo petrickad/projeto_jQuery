@@ -9,13 +9,13 @@ $(document).ready(function(){
         const inputNovaTarefa = $('#nova-tarefa').val();
         if (inputNovaTarefa) {
             $('table tbody').append(`
-                <tr>
-                    <td>${inputNovaTarefa}</td>
-                </tr>`);
+                <ul>
+                    <li>${inputNovaTarefa}</li>
+                </ul>`);
             $('#nova-tarefa').val('');
         }
     });
-    $('table tbody').on('click', 'td', function() {
+    $('table tbody').on('click', 'li', function() {
         $(this).toggleClass('concluida');
     });
 });
