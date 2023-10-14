@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {    
+    margin-top: 55px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao quadrado */
+    padding: 25px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+header {
+    padding: 26px 168px;
+    background-color: rgba(83, 29, 29, 0.596);
+    color: #fff;
+    position: relative;
+    border-top-right-radius:  15px;
+    border-top-left-radius: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-family: 'Tilt Neon', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+header button {
+    color: #fff;
+    padding: 6px;
+    border: none;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(151, 134, 134, 0.836);
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+}
+
+header button:hover {
+    background-color: rgba(131, 29, 29, 0.39);
+}
+
+form {
+    color: #fff;
+    background-color: rgb(160, 130, 130);
+    margin-top: 0px;
+    padding-top: 16px;
+    padding-bottom: 18px;
+}
+
+form input {
+    background-color: rgba(83, 29, 29, 0.596);;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 70%;
+    color: #fff;
+    margin-top: 16px;
+    
+}
+form input::placeholder {
+    color: #fff;
+}
+form button{
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(83, 29, 29, 0.596);;
+    border-radius: 6px;
+    
+}
+.parte-debaixo{
+    display: none;
+}
+table th{
+    border-bottom: 2px solid black ;
+    padding: 14px;
+}
+table {
+    background-color: rgba(83, 29, 29, 0.39);
+    width: 100%;
+    padding-top: 16px 38px;
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px;
+    border-collapse: collapse;
+    overflow: hidden;
+    
+}
+table td{
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+input{
+    margin-bottom: 25px;
+}
+.concluida {
+    text-decoration: line-through;
+}
+
